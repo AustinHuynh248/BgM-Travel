@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box !important;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+section.slider {
+  margin: 0;
+}
+
+.slider .slides div img {
+  opacity: 0.8 !important;
+}
+
+/* search section */
+.section-search input {
+  padding: 5px !important;
+  font-size: 1.3rem !important;
+  width: 80% !important;
+  border: #f4f4f4 3px solid !important;
+}
+/* search icons */
+.section-icons .card-panel h4 {
+  padding: 1rem;
+  margin: 2rem 0 1rem;
+}
+
+/* section follow */
+.section-follow .fa-4x {
+  margin: 0.5rem 0.7rem;
+}
+
+/* section gallery */
+.section-gallery img {
+  border: 1px solid #3333;
+}
+
+.section-gallery h4 {
+  margin-bottom: 2rem;
+}
